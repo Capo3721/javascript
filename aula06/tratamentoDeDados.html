@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula de JS</title>
+    <style>
+        body{
+           background-color: aquamarine;
+           font: normal 20pt Arial;
+        }
+        h1{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1> Olá, Mundo!!!!</h1>
+    <p>Já me livrei da maldição!</p>
+
+
+    <script>
+        //var num1 = parseInt(prompt('Digite um número: '))
+        //var num2 = parseInt(prompt('Digite o segundo número: '))
+
+        var num1 = Number(prompt('Informe o primeiro número: '))
+        var num2 = Number(prompt('Informe o segundo número: '))
+        var resultado = num1+num2
+        Number(resultado)
+        
+        alert(`O resultado da some entre ${num1} e ${num2} é: ${resultado}!`)
+        
+
+        //para converter para String, basta usar:
+        //String(variavel)
+        //variavel.toString()
+        /*
+        variavel.lenght = tamanho da string
+        variavel.toUpperCase() = coloca todas as letras em maiúsculas 
+        variavel.toLowerCase() = coloca todas as letras em minúsculas
+        */
+       /*Formatando números:
+       n1 = 1545.5
+       n1.toFixed(2) = 1545.50
+       n1.toFixed(2).replace('.', ',') = 1545,50
+
+       Colocar o valor em reais:
+       n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+       */
+
+    </script>
+</body>
+</html>
